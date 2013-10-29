@@ -4,12 +4,6 @@
 #define MAXSIZE  100
 #define DATETYPE int
 
-typedef	struct
-{
-	int size[10];
-	int top;
-}rode;
-
 typedef	struct 
 {
 	DATETYPE data[MAXSIZE];
