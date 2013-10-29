@@ -3,6 +3,7 @@
 
 #define MAXSIZE  100
 #define DATETYPE int
+#define DATA 500
 
 typedef	struct 
 {
@@ -61,7 +62,7 @@ DATETYPE Top_Seqstack(Seqstack *s)
 		return s->data[s->top];
 }
 
-int main(void)
+int main()
 {
 	Seqstack *s;
 	DATETYPE ele;
@@ -83,6 +84,7 @@ int main(void)
 		printf("%d\n",*le);
 	}
 */
+	//JUST FOR LEARING
 	printf("%d\n",s->top );
 	scanf_s("%d\n",ele);
 	return 0;
